@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+for i in {01..12} #Every Month
+do
+  for j in {01..31} #Every Day of Month
+  do
+    wget http://phdcomics.com/comics/archive/phd"$i$j".gif #File Format for 1997 and 1998 Comics
+    wget http://phdcomics.com/comics/archive/phd"$i$j"s.gif #File Format for 1998 Comics
+    for k in {98..99} {00..18} #Every Year after 1998
+    do
+      wget http://phdcomics.com/comics/archive/phd"$i$j$k"s.gif #General File Format for Comics
+    done
+  done
+done
