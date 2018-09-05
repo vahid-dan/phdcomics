@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+mkdir -p phdcomics && cd phdcomics #Create and Enter Comics Directory
+
 for i in {01..12} #Every Month
 do
   for j in {01..31} #Every Day of Month
@@ -12,3 +14,12 @@ do
     done
   done
 done
+
+#Remove Ads
+rm phd011415s.gif phd012017s.gif phd030101s.gif phd041017s.gif phd042701s.gif phd050101s.gif phd050301s.gif\
+phd050916s.gif phd051413s.gif phd051414s.gif phd052713s.gif phd060811s.gif phd061314s.gif phd062413s.gif\
+phd070813s.gif phd080513s.gif phd081913s.gif phd082412s.gif phd091012s.gif phd092710s.gif phd100410s.gif\
+phd100413s.gif phd101413s.gif phd102412s.gif phd102813s.gif phd112612s.gif phd120913s.gif phd121012s.gif\
+phd121014s.gif phd121114s.gif phd123113s.gif phd061013s.gif phd050613s.gif phd021313s.gif phd011613s.gif\
+phd100212s.gif phd073012s.gif phd091712s.gif phd042512s.gif phd020816s.gif phd071917s.gif phd042711s.gif\
+phd021714s.gif phd112513s.gif phd110212s.gif phd122315s.gif phd040214s.gif
